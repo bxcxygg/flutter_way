@@ -12,10 +12,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'wechat',
       theme: ThemeData(
         primaryColor: kPrimaryColor,
-        textTheme: TextTheme(),
+        textTheme: TextTheme(
+          subtitle2: TextStyle(
+            color: Colors.black,
+            fontWeight: FontWeight.w400,
+            fontSize: 18,
+          ),
+        ),
       ),
       home: HomeScreen(),
     );

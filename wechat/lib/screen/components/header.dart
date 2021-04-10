@@ -14,9 +14,9 @@ class Header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(top: kDefaultPadding),
+      padding: EdgeInsets.symmetric(vertical: kDefaultPadding / 2),
       width: double.infinity,
-      height: 40,
+      height: 50,
       color: Colors.transparent,
       child: Stack(
         alignment: Alignment.center,

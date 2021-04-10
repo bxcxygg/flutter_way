@@ -12,7 +12,7 @@ class Bottom extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 100,
-      padding: EdgeInsets.only(bottom: kDefaultPadding * 1.5, top: kDefaultPadding / 2),
+      padding: EdgeInsets.only(bottom: kDefaultPadding, top: kDefaultPadding),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
